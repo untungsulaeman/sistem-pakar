@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Diagnosa Penyakit Kulit Kucing</string>
+    <string name="ring_worm">Ringworm adalah jenis lain dari jamur yang menyerang kucing, Terutama anak kucing di bawah satu tahun. Hal ini menyebabkan lesi melingkar di kepala kucing, telinga, dan badan. Kulit di sekitar lesi sering bersisik dan botak. Ringworm sangat menular dan dapat menyebar ke hewan peliharaan lain di rumah, serta kepada orang-orang. Pengobatan tergantung pada tingkat keparahan, tetapi mungkin termasuk shampoo khusus, salep, atau obat-obatan oral</string>
+    <string name="Pencegahan_ringworm">- Sebulan sekali Lakukan desinfektan Rutin ruangan dan kandang tempat tinggal kucing dengan cairan Bleaching /pemutih , dan desinfektan untuk hewan.
+-  Sebulan sekali Mandikan atau rendam kucing dalam cairan Lyme sulfur/larutan belerang. atau air 10 lt yang di tetesi propolis 20 tetes (   http://www.freewebs.com/sacpet/obatperlengkapanpet.htm )   . atau mandikan dengan menggunakan shampo Sebazole.
+</string>
+    <string name="Pengobatan_ringworm">Bila Kucing anda sudah terkena Ringworm ,
+- bersihkan kerak2 yang terbentuk dengan Minyak Tawon atau Virgin Coconut Oil (VCO) , setelah bersih oleskan Propolis atau salep anti Jamur biasanya Ketokenazole.
+- Untuk kcg diatas 4 Bulan secara  Oral berikan Ithraconazole/ Sporanox, satu kapsul di bagi  5 selama 2 minggu sehari sekali.
+- Untuk kucing di bawah 4 bulan atau Hamil, jangan di berikan obat oral.
+</string>
+
+
+    <string name="ketombe">Seperti orang,  Kulit kucing juga dapat  kering, dan terkelupas. Ini biasanya tidak ada yang serius, tetapi tidak ada salahnya anda konsul dengan dr Hewan anda. Ketombe yang terus menerus dapat  menjadi tanda gizi buruk, perawatan yang tidak memadai, atau ada masalah Kesehatan. Shampoo khusus dan suplemen omega-3 asam lemak dapat membantu mengobati ketombe kucing</string>
+    <string name="Pencegahan_ketombe">- Mandikan  Kucing  Sebulan sekali dengan shampo anti jamur /sebazole.</string>
+    <string name="Pengobatan_ketombe">- Berikan Suplemen tambahan seperti Minyak ikan dan X trabloom wate </string>
+
+    <string name="infeksi">Infeksi jamur yang disebabkan oleh jamur Banyak terjadi pada kucing yang memiliki masalah medis lainnya. Telinga adalah salah satu tempat yang paling umum untuk infeksi jamur. Gejala mungkin termasuk cairan hitam atau kuning, kemerahan pada daun telinga, dan terus-menerus menggaruk telinga. Infeksi jamur mudah didiagnosis dan biasanya cepat sembuh terhadap pengobatan dengan obat antijamur.</string>
+    <string name="Pencegahan_infeksi">- Sebulan sekali Lakukan desinfektan Rutin ruangan dan kandang tempat tinggal kucing dengan cairan Bleaching /pemutih , dan desinfektan untuk hewan.
+-  Sebulan sekali Mandikan atau rendam kucing dalam cairan Lyme sulfur/larutan belerang. atau air 10 lt yang di tetesi propolis 20 tetes (   http://www.freewebs.com/sacpet/obatperlengkapanpet.htm )   . atau mandikan dengan menggunakan shampo Sebazole.</string>
+    <string name="Pengobatan_infeksi">Bila Kucing anda sudah terkena Jamur ,
+- bersihkan kerak2 yang terbentuk dengan Minyak Tawon atau Virgin Coconut Oil (VCO) , setelah bersih oleskan Propolis atau salep anti Jamur biasanya Ketokenazole.
+- Untuk kcg diatas 4 Bulan secara  Oral berikan Ithraconazole/ Sporanox, satu kapsul di bagi  5 selama 2 minggu sehari sekali.
+- Untuk kucing di bawah 4 bulan atau Hamil, jangan di berikan obat oral.</string>
+
+    <string name="jerawat">Jerawat biasanya muncul di dan di sekitar dagu kucing. Kemungkinan penyebab termasuk stres, jarang dibersihkan, reaksi terhadap obat, atau masalah kulit . Dokter hewan Anda dapat merekomendasikan shampoo khusus atau gel untuk membersihkan Jerawat, atau antibiotik jika infeksi bakteri menyertai jerawat.</string>
+    <string name="Pencegahan_jerawat"></string>
+    <string name="Pengobatan_jerawat">- bersihkan kerak2 yang terbentuk dengan Minyak Tawon atau Virgin Coconut Oil (VCO) , setelah bersih oleskan Propolis</string>
+
+    <string name="eos">Jika kucing Anda ada borok atau luka pada hidung atau bibir, ia mungkin akan mengalami jenis reaksi alergi yang dikenal sebagai granuloma eosinofilik. Reaksi ini dapat terjadi di mana saja pada tubuh, tetapi paling sering pada wajah, bantalan kaki, dan paha. Alergi makanan atau kutu kadang-kadang merupakan penyebabnya tetapi luka ini juga bisa terjadi akibat infeksi bakteri. Pengobatannya tergantung pada apa yang menyebabkannya.</string>
+    <string name="Pencegahan_eos"></string>
+    <string name="Pengobatan_oes">- bersihkan kerak2 yang terbentuk dengan Minyak Tawon atau Virgin Coconut Oil (VCO) , setelah bersih oleskan Propolis</string>
+
+    <string name="Pencegahan_alergi"></string>
+    <string name="Pengobatan_alergi">- bersihkan kerak2 yang terbentuk dengan Minyak Tawon atau Virgin Coconut Oil (VCO) , setelah bersih oleskan Propolis</string>
+    <string name="alergi">Kucing dapat memiliki reaksi alergi terhadap produk perawatan, makanan, dan gangguan lingkungan, seperti serbuk sari atau gigitan kutu. Menggaruk kepala atau leher adalah tanda umum dari alergi makanan. Gejala alergi lainnya termasuk menjilat pada kaki atau menggaruk telinga atau pangkal ekor. Ada berbagai cara untuk mengobati kulit gatal berhubungan dengan alergi, tapi melakukan pencegahan adalah strategi terbaik.</string>
+
+    <string name="stud">Juga disebut hiperplasia kelenjar pada buntut, Ekor pejantan mengeluarkan kelenjar minyak yang aktif di bagian atas ekor. Kelenjar ini menghasilkan ekskresi lilin yang Membuat rambut rontok dan lesi berkerak. Dalam kasus yang parah, kondisi bisa membuat ekor rentan terhadap infeksi bakteri. Neutering/Kebiri dapat menghilangkan masalah pada kucing jantan. Pilihan pengobatan lain adalah rajin merawat ekor dan menggunakan sampo yang diformulasikan secara khusus.</string>
+    <string name="Pencegahan_stud"></string>
+    <string name="Pengobatan_stud">- Cuci /bersihkanlemak di buntut dengan menggunakan Goop atau sabun untuk cuci piring.
+- setelah bersih bilas dengan shampo sebazole dan terakhir bilas dengan air propolis ( 20 tetes propolis dan 1 liter air) , keringkan sampai kering.
+</string>
+
+
+    <string name="rontok">jika Anda melihat kucing Anda kehilangan rambut lebih dari biasanya atau memiliki bagian yang botak, segera mungkin temui dr hewan anda. Rambut rontok abnormal dapat menjadi tanda peringatan dari beberapa penyakit, adanya kutu, stres, alergi, atau gizi buruk.</string>
+    <string name="Pencegahan_rontok"></string>
+    <string name="Pengobatan_rontok">- Berikan makanan bergizi misalnya wet food dicampur kitty bloom atau kalau untuk menggemukan berikan juga Xtra Bloom wate.
+- Berikan pengobatan sesuai dengan penyebab kebotakan
+</string>
+</resources>

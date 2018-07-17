@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <com.mindorks.placeholderview.SwipePlaceHolderView
+        android:id="@+id/swipeView"
+        android:layout_width="match_parent"
+        android:layout_height="489dp"
+        tools:background="?attr/colorPrimary" >
+
+
+    </com.mindorks.placeholderview.SwipePlaceHolderView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@+id/swipeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <Button
+            android:id="@+id/kembali"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="back"
+            android:textColor="#ffff"/>
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tidak"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="tidak"
+        android:textColor="#ffff"/>
+
+
+
+
+
+    <Button
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/iya"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff"
+        android:text="iya"
+        android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:id="@+id/hitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Diagnosa"
+            android:textColor="#ffff"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

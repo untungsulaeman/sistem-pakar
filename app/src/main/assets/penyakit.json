@@ -1,0 +1,34 @@
+[
+  {
+    "penyakit":"Ring Worm",
+    "gejala":[1,2,3]
+  },
+  {
+    "penyakit":"Alergic Dematitis",
+    "gejala":[6,7,8]
+  },
+  {
+    "penyakit":"Kutu Lice",
+    "gejala":[9,10,11]
+  },
+  {
+    "penyakit":"Eosinophilic Granuloma",
+    "gejala":[12, 13, 16]
+  },
+  {
+    "penyakit":"Abses",
+    "gejala":[1, 14]
+  },
+  {
+    "penyakit":"Ketombe/ Kulit Kering",
+    "gejala":[1, 4, 15]
+  },
+  {
+    "penyakit":"Stud Tail",
+    "gejala":[1, 2, 17]
+  },
+  {
+    "penyakit":"Scabies",
+    "gejala":[1, 4, 5]
+  }
+]
