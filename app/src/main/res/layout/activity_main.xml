@@ -1,82 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="horizontal"
-    android:background="#00BCD4">
+    android:orientation="vertical"
+     >
 
-
-    <TextView
-        android:layout_marginTop="60dp"
-        android:id="@+id/pakar"
-        android:text="SISTEM PAKAR"
-        android:textSize="25dp"
-        android:gravity="center"
+    <ImageView
+        android:background="@drawable/kucing"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="210dp" />
 
-    <TextView
-        android:id="@+id/pakar1"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/pakar"
-        android:text="DIAGNOSA PENYAKIT KULIT PADA KUCING" />
 
     <LinearLayout
+        android:layout_marginBottom="6dp"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:layout_centerVertical="true"
         android:layout_gravity="center"
+        android:layout_weight="1"
         android:gravity="center">
 
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="14dp"
-            android:orientation="vertical">
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="6dp">
 
-            <Button
-                android:background="#006064"
+            <android.support.v7.widget.CardView
                 android:id="@+id/diagnosa"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginBottom="50dp"
-                android:text="dianosa" />
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="5dp">
 
-            <Button
-                android:background="#006064"
-                android:id="@+id/simulasi"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:text=" simulasi" />
+                <LinearLayout
+                    android:background="#C6E2ED"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:src="@drawable/diagnosas"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+                    <TextView
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_marginTop="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DIAGNOSA"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/daftarPenyakit"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:background="#C6E2ED"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:src="@drawable/daftar"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+                    <TextView
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_marginTop="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DAFTAR PENYAKIT"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:orientation="vertical">
+            android:orientation="horizontal"
+            android:gravity="center">
 
-            <Button
-                android:background="#006064"
-                android:id="@+id/daftarpenyakit"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginBottom="50dp"
-                android:text="daftar penyakit" />
+            <android.support.v7.widget.CardView
+                android:id="@+id/petunjuk"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="5dp">
 
-            <Button
-                android:background="#006064"
+                <LinearLayout
+                    android:background="#C6E2ED"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:src="@drawable/petun"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+                    <TextView
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_marginTop="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PETUNJUK"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
                 android:id="@+id/about"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:text=" about" />
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:background="#C6E2ED"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:src="@drawable/about"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_marginTop="11dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TENTANG APLIKASI"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
         </LinearLayout>
+
+
     </LinearLayout>
-</RelativeLayout>
+</LinearLayout>

@@ -90,8 +90,8 @@ public class DiagnosaActivity extends AppCompatActivity {
           @Override
             public void onClick(View v) {
 
-              Intent intent = new Intent(DiagnosaActivity.this, Survey.class);
-              intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP).addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+              Intent intent = new Intent(getApplicationContext(), Survey.class);
+              intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                   startActivity(intent);
                   hitung.pilihan();
                   hitung.cari();
